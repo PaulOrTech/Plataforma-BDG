@@ -1,2 +1,2 @@
-# Plataforma-BDG
-Web que aloja curso, recursos y contenido relacionado con programacion y tecnologia.
+# Conoce-a-Paul
+Profesor digital que te enseña programacion, robotica e inteligencia artificial.

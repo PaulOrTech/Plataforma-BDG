@@ -1,0 +1,129 @@
+
+img{
+  border-radius: 2%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #beeee4;
+  border: 1px solid rgb(14, 136, 116);
+  border-radius: 3px;
+  position:fixed;
+  overflow: auto;
+}
+
+li {
+  border-bottom: 1px solid rgb(14, 136, 116);
+  text-align: center;
+}
+li:last-child {
+  border-bottom: none;
+}
+
+li a{
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 30px 50px;
+  text-decoration: none;
+  text-align: left;
+}
+
+/* Cambiar el color a pasar mouse*/
+li a.active{
+  background-color: rgb(25, 56, 112);
+  color:white;
+}
+
+li a:hover{
+  background-color: rgb(14, 136, 116);
+  color:white;
+}
+
+li a:hover:not(.active){
+  background-color: rgb(14, 136, 116);
+  color:white
+}
+
+/*Cabecera*/
+#cabecera {
+  background-color:white;
+  height:90px;
+}
+
+#logotipo {
+  float:left;
+  width: 15%;
+  height:80px;
+  }
+#publicidad {
+  float:right;
+  width: 75%;
+  height:80px;
+  }
+
+.imagenPrincipal{
+  padding: 1em;
+  margin: 1em 0 1em 4em;
+  width: 300px;
+    position: absolute;
+    top: 90px;
+    left: 325px;
+}
+
+/*STICKY CABECERA*/
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: .1px;
+  font-size: 19px;
+}
+
+#aprendeProgramacion{
+  float: left;
+}
+
+#aprendeRobotica{
+  float: right;
+}
+
+p{
+  color: #777a7c;
+}
+
+html, body{
+  font-family: 'Google Sans', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h6{
+    color: #7d8186;
+    font-family: 'Google Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1px;
+    letter-spacing: 0.4px;
+}
+
+h2{
+  color: #3c4043;
+  font-weight: 450;
+  font-size: 25px;
+  letter-spacing: -0.1px;
+  line-height: 25px;
+}
+
+.rdaprogramacion{
+  margin:1em;
+  padding:1em;
+  float:left;
+  color:blue;
+}
+
+.rdaprogramacion{
+  border-radius: 10px;
+  border:.5px solid rgb(206, 208, 209);
+}
+
